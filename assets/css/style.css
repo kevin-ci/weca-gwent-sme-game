@@ -1,0 +1,25 @@
+img {
+    height: 200px;
+}
+
+.character-area {
+    text-align: center;
+}
+
+.char-name {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.char-health {
+    font-size:larger;
+}
+
+.center {
+    text-align: center;
+}
+
+#status {
+    font-size: larger;
+    font-weight: bold;
+}
