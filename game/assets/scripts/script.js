@@ -5,7 +5,7 @@ let hero = {
   name: "Kevin",
   health: 100,
   attacks: {
-    shank: "shank attack",
+    shank: "mega shank attack",
     gouge: "gouge attack",
     scratch: "scratch attack",
   },
@@ -60,7 +60,6 @@ function handleButtonClick(event) {
 }
 
 let buttons = document.querySelectorAll("button");
-console.log(buttons);
 for (let i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener('click', handleButtonClick);
 }
